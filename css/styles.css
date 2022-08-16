@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: shabnam;
+    src: url(font/Shabnam-Bold.woff) format("truetype");
+  }
+.container{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+   grid-template-rows: 80vh repeat(5,max-content);
+}
+.section-text{
+  text-align: center;
+  padding-top:30px;
+  color:orange;
+  margin-bottom: 20px;
+  
+}
+.section-text::before, .section-text::after {
+  content:"";
+  height: 2px;
+  width:5%;
+  display: inline-block;
+  background-color: rgb(10, 10, 10);
+  position: relative;
+  vertical-align: inherit;
+  }
+  .section-text::before{
+    left:10px;
+   
+  }
+  .section-text::after {
+   right:10px;
+  
+  }

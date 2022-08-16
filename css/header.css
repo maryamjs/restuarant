@@ -1,0 +1,61 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+
+.header{
+    background-color: rgb(199, 73, 172);
+    grid-column: 1/-1;
+    background-image:linear-gradient(to bottom,#3a39394f , #000000), url("../img/felicia-buitenwerf-3CNGDuKIw78-unsplashh.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    display: grid;
+    grid-template-rows: repeat(3,min-content);
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    /* grid-template-columns: repeat(3,1fr); */
+    /* grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); */
+    
+   
+   
+}
+.header1{
+font-family: shabnam ;
+color:white;
+
+
+
+}
+.header2{
+    font-family: shabnam ;
+    color:white;
+}
+.header3{
+    color:orange;
+}
+
+.btn-h{
+    padding:20px 30px;
+    background-color: orange;
+    justify-self: center;
+    border-radius: 5px;
+    border:1px solid orange;
+    font-family: shabnam;
+    color:white;
+    cursor:pointer;
+    transition:all 0.4s ;
+    justify-self: center;
+}
+.btn-h:hover{
+    background-color: white;
+    color:orange;
+}
